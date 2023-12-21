@@ -80,3 +80,6 @@ ACS_2020_transportation_filtered <- ACS_2020_transportation %>%
 
 saveRDS(ACS_2020_transportation_filtered, file = here("data","ACS_2020_transportation_filtered.RDS"))
 write.csv(ACS_2020_transportation_filtered, file = here("data","ACS_2020_transportation_filtered.csv"))
+
+ACS_2020_transportation_filtered <- read_csv("https://raw.githubusercontent.com/nsifnugel/biostat777-project4-data/main/ACS_2020_transportation_filtered.csv")
+
